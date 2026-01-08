@@ -1,12 +1,7 @@
 import useSWR from "swr";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-
-interface BaseResource {
-  id: string;
-  createdAt: string;
-  updatedAt: string;
-}
+import type { BaseResource } from "@/types/resourceTypes";
 
 interface ResourceAPI<T> {
   getAll: () => Promise<T[]>;
