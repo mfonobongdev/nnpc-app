@@ -37,7 +37,7 @@ export default function LoginForm() {
           alt="NNPC"
           className="mx-auto"
         />
-        <Text className="text-center -mt-3 mb-2" variant="Caption">
+        <Text className="text-center -mt-5 mb-2" variant="Caption">
           Please enter your details to login.
         </Text>
       </div>

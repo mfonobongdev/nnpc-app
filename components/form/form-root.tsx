@@ -32,7 +32,7 @@ export default function FormRoot<T extends FormikValues>({
       {({ handleSubmit }) => (
         <Form
           onSubmit={handleSubmit}
-          className="w-full flex flex-col gap-5 justify-items-center"
+          className="w-full flex flex-col gap-4 justify-items-center"
         >
           {children}
         </Form>
