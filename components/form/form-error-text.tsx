@@ -1,3 +1,5 @@
+"use client";
+
 import { useField } from "formik";
 
 export default function FormErrorText({ name }: { name: string }) {

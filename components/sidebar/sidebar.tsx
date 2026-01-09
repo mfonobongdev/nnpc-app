@@ -1,3 +1,5 @@
+"use client";
+
 import HomeIcon from "@/app/assets/home-icon";
 import SidebarLink from "./sidebar-link";
 

@@ -1,3 +1,5 @@
+"use client";
+
 import { Input } from "@base-ui/react/input";
 import cn from "classnames";
 import { useField } from "formik";
